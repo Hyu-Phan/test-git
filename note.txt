@@ -17,3 +17,4 @@
 `git remote add <tên-remote> <url>`: thêm remote vào git
 
 hello
+hi
