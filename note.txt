@@ -15,3 +15,5 @@
 
 `git remote -v`: hiển thị các remote của repo
 `git remote add <tên-remote> <url>`: thêm remote vào git
+
+hi
