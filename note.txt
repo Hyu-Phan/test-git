@@ -1,0 +1,17 @@
+`git add <tên-file>/ git add .` : add file vào staging area
+`git commit -m "message"`: commit vào repo
+
+`git clone -b <tên-branch> <url>`: clone một branch
+`git push -u <tên-remote> <tên-branch>`: push commit lên branch remote
+
+`git status`: xem trạng thái của git 
+`git log`: xem commit
+`git reset <file>/ git reset`: đưa file trở lại trạng thái trước khi vào staging area
+`git reset --soft HEAD~1`: hủy commit đưa về trạng thái commit trước đó, nhưng không làm thay đổi tệp
+`git reset --hard HEAD~1`: hủy commit đưa về trạng thái commit trước đó, tất cả các thay đổi sẽ bị xóa
+
+`git branch`: hiển thị các branch hiện tại
+`git checkout <tên-branch>`: chuyển sang branch khác
+
+`git remote -v`: hiển thị các remote của repo
+`git remote add <tên-remote> <url>`: thêm remote vào git
